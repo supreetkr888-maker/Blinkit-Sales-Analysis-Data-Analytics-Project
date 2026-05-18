@@ -1,108 +1,61 @@
-# 🛒 Blinkit Sales Analysis | Data Analytics Project
+# 🛒 Blinkit Sales Analysis using Python
 
-## 📌 Project Overview
+## 📌 Overview
+This project focuses on analyzing Blinkit grocery sales data using Python. The aim of the analysis is to discover useful business insights related to sales performance, item categories, outlet types, and customer preferences.
 
-This project focuses on analyzing Blinkit's grocery sales data to uncover meaningful business insights related to sales performance, customer preferences, outlet performance, and product trends.
-
-Using data analytics and visualization techniques, this project helps understand how different factors such as outlet size, location, item type, and fat content impact overall sales.
+The project includes data cleaning, exploratory data analysis (EDA), and data visualization using Python libraries.
 
 ---
 
 ## 🎯 Objectives
-
-- Analyze overall sales performance
-- Identify top-performing product categories
-- Compare outlet performance across different tiers and sizes
-- Understand customer purchasing behavior
-- Generate actionable business insights through dashboards
-
----
-
-## 📊 KPIs Analyzed
-
-- 💰 Total Sales
-- 📦 Number of Items Sold
-- ⭐ Average Rating
-- 📈 Average Sales
-- 🏪 Outlet Performance
-- 🥗 Item Category Analysis
+- Analyze overall sales trends
+- Identify top-performing item categories
+- Compare outlet performance
+- Understand the impact of outlet size and location on sales
+- Generate business insights from raw sales data
 
 ---
 
-## 📌 Business Questions Solved
-
-- Which outlet type generates the highest sales?
-- Which item categories are most profitable?
-- How does outlet size affect revenue?
-- Which location tier contributes the most sales?
-- What is the impact of fat content on product sales?
-
----
-
-## 🛠️ Tools & Technologies Used
-
+## 🛠️ Technologies Used
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
-- Power BI
-- Excel
+- Jupyter Notebook
 
 ---
 
 ## 📂 Dataset Features
-
-The dataset includes:
+The dataset contains information such as:
 
 - Item Type
 - Item Fat Content
 - Outlet Size
 - Outlet Location Type
-- Outlet Establishment Year
 - Item Visibility
 - Item Weight
-- Sales
+- Sales Data
 - Ratings
 
 ---
 
-## 🔍 Project Workflow
-
-### 1️⃣ Data Cleaning
-- Handled missing values
-- Removed inconsistencies
-- Standardized categorical data
-
-### 2️⃣ Exploratory Data Analysis (EDA)
-- Sales trend analysis
-- Outlet performance analysis
-- Product category analysis
-
-### 3️⃣ Dashboard Creation
-Created interactive dashboards for better business understanding and storytelling.
+## 🔍 Analysis Performed
+- Data Cleaning
+- Handling Missing Values
+- Exploratory Data Analysis (EDA)
+- Sales Trend Analysis
+- Category-wise Analysis
+- Outlet-wise Performance Analysis
+- Data Visualization
 
 ---
 
 ## 📈 Key Insights
-
-- Medium-sized outlets generated the highest sales.
-- Tier 3 locations contributed significantly to total revenue.
-- Snack foods and fruits & vegetables were among the top-selling categories.
-- Supermarket outlets outperformed grocery stores in sales.
-- Low-fat products showed strong customer demand.
-
----
-
-## 📊 Dashboard Features
-
-✔ Interactive Filters  
-✔ KPI Cards  
-✔ Sales Analysis  
-✔ Outlet Comparison  
-✔ Product Category Insights  
-✔ Fat Content Analysis  
-✔ Location-Based Analysis  
+- Certain outlet types contribute more to overall sales.
+- Medium-sized outlets show better performance in many categories.
+- Snack foods and grocery items are among the highest-selling categories.
+- Sales patterns vary based on outlet location type.
 
 ---
 
@@ -111,30 +64,27 @@ Created interactive dashboards for better business understanding and storytellin
 ```bash
 Blinkit-Sales-Analysis-Data-Analytics-Project/
 │
-├── Dataset/
-├── Dashboard/
-├── Images/
-├── Notebook/
+├── data/
+├── notebooks/
+├── images/
 └── README.md
 ```
 
 ---
 
-## 🚀 How to Run the Project
-
-### Clone Repository
+## 🚀 How to Run
 
 ```bash
 git clone https://github.com/supreetkr888-maker/Blinkit-Sales-Analysis-Data-Analytics-Project.git
 ```
 
-### Install Required Libraries
+Install required libraries:
 
 ```bash
 pip install pandas numpy matplotlib seaborn
 ```
 
-### Run Jupyter Notebook
+Run Jupyter Notebook:
 
 ```bash
 jupyter notebook
@@ -142,35 +92,8 @@ jupyter notebook
 
 ---
 
-## 📸 Dashboard Preview
-
-_Add dashboard screenshots here_
-
-```markdown
-![Dashboard](Images/dashboard.png)
-```
-
----
-
-## 🎓 Learning Outcomes
-
-Through this project, I gained hands-on experience in:
-
-- Data Cleaning
-- Exploratory Data Analysis
-- Data Visualization
-- Dashboard Development
-- Business Intelligence Reporting
-- Data Storytelling
-
----
-
 ## 👩‍💻 Author
+Supreet Kaur
 
-### Supreet Kaur
-
-🔗 GitHub: https://github.com/supreetkr888-maker
-
----
-
-## ⭐ If you found this project useful, don't forget to star the repository!
+GitHub:
+https://github.com/supreetkr888-maker
